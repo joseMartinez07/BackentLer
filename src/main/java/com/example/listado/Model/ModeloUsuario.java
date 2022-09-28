@@ -15,7 +15,7 @@ public class ModeloUsuario {
     @Column(name = "nombre")
     private String nombre;
     @Column(name = "fecha_n")
-    private Date fecha_n;
+    private String fecha_n;
 
     @Column(name = "edad")
     private Integer edad;
@@ -37,11 +37,11 @@ public class ModeloUsuario {
         this.nombre = nombre;
     }
 
-    public Date getFecha_n() {
+    public String getFecha_n() {
         return this.fecha_n;
     }
 
-    public void setFecha_n(Date fecha_n) {
+    public void setFecha_n(String fecha_n) {
         this.fecha_n = fecha_n;
     }
 

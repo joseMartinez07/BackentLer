@@ -9,6 +9,7 @@ import javax.websocket.server.PathParam;
 import java.util.ArrayList;
 import java.util.Optional;
 
+@CrossOrigin(origins = "*", allowedHeaders = "*")
 @RestController
 @RequestMapping("/persona")
 public class ControllerUsuario {
